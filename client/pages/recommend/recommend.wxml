@@ -1,0 +1,22 @@
+<wxs module="constData">
+  module.exports = {
+    movies: [
+      './436H.png',
+      './440H.png',
+      './444H.png'
+    ],
+  }
+</wxs>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000">
+  <block wx:for="{{constData.movies}}" wx:for-index="index" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="aspectFill" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="searchBar">
+  <icon type="search" size="20" />
+  <input type="text" />
+</view> 

@@ -1,0 +1,30 @@
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.swiper {
+  width: 100%;
+  height: 400rpx;
+}
+
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.searchBar {
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: #fff;
+  position: absolute;
+  top: 360rpx;
+  left: 20rpx;
+  right: 20rpx;
+  border-radius: 4px;
+  padding-left: 20rpx;
+}
