@@ -1,0 +1,120 @@
+page {
+  background: #F6F6F6;
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.header image {
+  width: 100%;
+}
+
+.header .header-desc {
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+
+.header .header-desc-item {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.header .header-desc-icon {
+  background-color: lightgray;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.pd-desc {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.pd-name {
+  padding: 30px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.price-desc {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.price {
+  margin-left: 20px;
+  font-size: 16px;
+  color: red;
+}
+
+.pd-num {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100%;
+  font-size: 12px;
+}
+
+.num-com {
+  display: flex;
+  flex-direction: row;
+}
+
+.num-com .add-icon, .num-com .minus-icon {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.pd-num .num {
+  line-height: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 10px 10px;
+  direction: rtl;
+}
+
+.footer {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.footer .btn {
+  background-color: yellow;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+}
+
+.footer .btn:first-child {
+  margin-left: 10px;
+}
+
+.footer .btn:active {
+  background-color: lightyellow;
+}

@@ -1,0 +1,52 @@
+<view class='header'>
+  <image src="https://dakxvusj.qcloud.la/444H.png" />
+</view>
+
+<view class='pd-list' bindtap='toDetail'>
+  <view class='line'>
+    <view class='pd'>
+      <image src="./img/product01.jpg" mode='widthFix' />
+      <text class='desc'>米家IH电饭煲3L</text>
+      <text class='price'>￥0</text>
+    </view>
+    <view class='pd'>
+      <image src="./img/product02.jpg" mode='widthFix' />
+      <text class="desc">米加空气净化器MAX</text>
+      <text class="price">￥0</text>
+    </view>
+  </view>
+  <view class='line'>
+    <view class='pd'>
+      <image src="./img/product03.jpg" mode='widthFix' />
+      <text class='desc'>米家IH电饭煲3L</text>
+      <text class='price'>￥0</text>
+    </view>
+    <view class='pd'>
+      <image src="./img/product04.jpg" mode='widthFix' />
+      <text class="desc">米加空气净化器MAX</text>
+      <text class="price">￥0</text>
+    </view>
+  </view>
+  <view class='line'>
+    <view class='pd'>
+      <image src="./img/product05.jpg" mode='widthFix' />
+      <text class='desc'>米家IH电饭煲3L</text>
+      <text class='price'>￥0</text>
+    </view>
+    <view class='pd'>
+      <image src="./img/product06.jpg" mode='widthFix' />
+      <text class="desc">米加空气净化器MAX</text>
+      <text class="price">￥0</text>
+    </view>
+  </view>
+  <view class='line'>
+    <view class='pd'>
+      <image src="./img/product07.jpg" mode='widthFix' />
+      <text class='desc'>米家IH电饭煲3L</text>
+      <text class='price'>￥0</text>
+    </view>
+  </view>
+  <view class='footer'>
+    没有更多了~
+  </view>
+</view>

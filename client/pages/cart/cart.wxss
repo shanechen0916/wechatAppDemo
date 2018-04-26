@@ -1,0 +1,78 @@
+page {
+  background: #F6F6F6;
+}
+
+.tips {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 13px;
+  color: gray;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 0 35px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 30px;
+  border-radius: 15px;
+  color: gray;
+  background-color: yellow;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.pd-item {
+  background-color: #fff;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.close {
+  color: gray;
+  margin-right: 10px;
+}
+
+.operation {
+  position: fixed;
+  bottom: 0;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.price {
+  color: red;
+  font-size: 14px;
+}
+
+.operation-btn {
+  padding: 0 30px;
+  box-sizing: border-box;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: yellow;
+  border-radius: 20px;
+   transform: translate3d(60px, 0, 0); 
+}
+
+.btn:active {
+  background-color: lightyellow;
+}
+
+.operation-btn:active {
+  background-color: lightyellow;
+}

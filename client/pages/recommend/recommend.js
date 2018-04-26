@@ -6,4 +6,9 @@ var util = require('../../utils/util.js')
 Page({
   data: {
   },
+  toList: function(e) {
+    wx.navigateTo({
+      url: '../list/list',
+    })
+  }
 })

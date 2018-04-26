@@ -1,0 +1,15 @@
+<view class="userinfo" bindtap="login">
+  <image class="userinfo-avatar" src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}" background-size="cover">
+  </image>
+  <span class="userinfo-nickname">
+    {{logged ? userInfo.nickName : '点击登录'}}
+  </span>
+</view>
+
+<view class="fn-list">
+  <a>我的订单</a>
+  <a>代金券</a>
+  <a>我的地址</a>
+  <a>我的收藏</a>
+  <a>联系客服</a>
+</view>

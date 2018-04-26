@@ -63,4 +63,16 @@
             <text>跳转到推荐</text>
         </navigator>
     </view>
+    <!-- 上传图片测试 -->
+    <view class="uploader">
+        <navigator url="../info/info" open-type="navigate" class="uploader-text">
+            <text>跳转到我</text>
+        </navigator>
+    </view>
+    <!-- 上传图片测试 -->
+    <view class="uploader">
+        <navigator url="../cart/cart" open-type="navigate" class="uploader-text">
+            <text>跳转到购物车</text>
+        </navigator>
+    </view>
 </view>

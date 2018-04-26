@@ -17,14 +17,108 @@ page {
 
 .searchBar {
   height: 80rpx;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
   background-color: #fff;
   position: absolute;
   top: 360rpx;
   left: 20rpx;
   right: 20rpx;
   border-radius: 4px;
-  padding-left: 20rpx;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.searchBar icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate3d(0, -50%, 0);
+}
+
+ .searchBar input {
+  position: absolute; 
+  height: 80%;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+} 
+
+.content {
+  position: absolute;
+  top: 440rpx;
+  left: 20rpx;
+  right: 20rpx;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+  margin: 30rpx 0;
+}
+
+.classificatiion {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 4px;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+
+.classificatiion .line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.classificatiion .line:last-child {
+  margin-bottom: 0;
+}
+
+.classificatiion a {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  align-content: center;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.classificatiion a:active {
+  background-color: #f6f6f6;
+}
+
+.classificatiion image {
+  height: 40px;
+  width: 40px;
+}
+.theme {
+  width: 100%;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.theme image {
+  width: 100%;
+}
+
+.theme .theme-text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: yellow;
+  padding: 10px 10px;
+  font-size: 12px;
+  transform: translate3d(0, -50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
 }

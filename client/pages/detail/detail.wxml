@@ -1,0 +1,36 @@
+<view class="header">
+  <image src="https://dakxvusj.qcloud.la/444H.png"mode="widthFix" />
+  <view class="header-desc">
+    <view class='header-desc-item'>
+      <text class="header-desc-icon">正</text> 正品保证
+    </view>
+    <view class='header-desc-item'>
+      <text class="header-desc-icon">邮</text> 全场包邮
+    </view>
+    <view class='header-desc-item'>
+      <text class="header-desc-icon">售</text> 售后无忧
+    </view>
+  </view>
+</view>
+<view class="pd-desc">
+  <view class="pd-name">
+    小米机器人
+  </view>
+  <view class="price-desc">
+    当前价格
+    <text class="price">￥0</text>
+  </view>
+  <view class="pd-num">
+    购买数量
+    <view class="num-com">
+      <text class="minus-icon" bindtap='minus'>-</text>
+      <text class='num'>{{num}}</text>
+      <text class="add-icon" bindtap='add'>+</text>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <button class="btn" bindtap='handleBuy'>立即购买</button>
+  <button class="btn" bindtap='handleAdd'>加入购物车</button>
+</view>

@@ -1,9 +1,9 @@
 <wxs module="constData">
   module.exports = {
     movies: [
-      './436H.png',
-      './440H.png',
-      './444H.png'
+      'https://dakxvusj.qcloud.la/436H.png',
+      'https://dakxvusj.qcloud.la/440H.png',
+      'https://dakxvusj.qcloud.la/444H.png'
     ],
   }
 </wxs>
@@ -15,8 +15,81 @@
     </swiper-item>
   </block>
 </swiper>
-
-<view class="searchBar">
-  <icon type="search" size="20" />
-  <input type="text" />
+ <view class="searchBar">
+     <icon type="search" size="20" />  
+   <input type="text" placeholder='查找商品' />  
+</view> 
+ <view class="content" bindtap='toList'>
+  <view class="title">
+    <text>分类</text>
+  </view>
+  <view class="classificatiion">
+    <view class="line">
+      <a>
+        <image src="./img/shuma.png" /> 数码
+      </a>
+      <a>
+        <image src="./img/jiaju.png" /> 家居
+      </a>
+      <a>
+        <image src="./img/jiadian.png" /> 家电
+      </a>
+      <a>
+        <image src="./img/chuwei.png" /> 厨卫
+      </a>
+    </view>
+    <view class="line">
+      <a>
+        <image src="./img/chongwu.png" /> 宠物
+      </a>
+      <a>
+        <image src="./img/wenhua.png" /> 文化
+      </a>
+      <a>
+        <image src="./img/chuxing.png" /> 出行
+      </a>
+      <a>
+        <image src="./img/yundong.png" /> 运动
+      </a>
+    </view>
+    <view class="line">
+      <a>
+        <image src="./img/lehuo.png" /> 乐活
+      </a>
+      <a>
+        <image src="./img/meihu.png" /> 美护
+      </a>
+      <a>
+        <image src="./img/meishi.png" /> 美食
+      </a>
+      <a>
+        <image src="./img/muying.png" /> 母婴
+      </a>
+    </view>
+  </view>
+  <view class="title">
+    <text>活动</text>
+  </view>
+  <view class='theme'>
+    <view class='theme-text'>
+      <text>带上耳机，享受生活</text>
+      <text>在音乐的天堂里有说不尽的快乐</text>
+    </view>
+    <image src="https://dakxvusj.qcloud.la/theme01.png" />
+  </view>
+  <view class='theme'>
+    <view class='theme-text'>
+      <text>一见钟情，再见倾心</text>
+      <text>时间于我，变得缓慢而又轻快</text>
+    </view>
+    <image src="https://dakxvusj.qcloud.la/theme02.png" />
+  </view>
+  <view class="theme">
+    <view class="theme-text">
+      <text>女神节</text>
+      <text>献给世界上最伟大的物种</text>
+    </view>
+    <image src="https://dakxvusj.qcloud.la/theme01.png" />
+  </view>
+  <view class='footer'></view>
 </view> 
